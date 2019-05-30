@@ -5,7 +5,7 @@ This repository consists of the modified modules required to enable Java EE 8 su
 
 To use these sources, follow these steps:
  
-1) Download the Apache NetBeans 11.0 sources, which can be found at the link below.  
+1) Download the Apache NetBeans 11.0 sources, which can be found at the following link:  https://netbeans.apache.org/download/nb110/nb110.html 
 
 2) Once the Apache NetBeans 11.0 sources have been downloaded and extracted to a directory on your machine, clone this repository to your machine.  
 
