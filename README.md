@@ -22,8 +22,15 @@ netbeans_jdkhome=/Java_Dev/OpenJDK/zulu8.36.0.1-ca-jdk8.0.202-macosx_x64
 
 7) Run Apache NetBeans and use a new userdir, as follows, from within the nbbuild/netbeans directory:
 
+<pre>
 ./bin/netbeans --userdir "/path/to/userdir/name"
+</pre>
 
-* Note:  You will be prompted to install Oracle JS Parser and nbjavac the first time you attempt to add a server or create a new Java EE project
+8) Open Tools->Plugins and then click on "Available Plugins".  Install the "nbjavac" and "Oracle JS Parser" plugins.
+
+** Your environment should now be ready to do the following:
+- Add a GlassFish 5, GlassFish 5.0.1, or GlassFish 5.1 server
+- Create new Maven Web Application using the Java EE 8 Platform
+- Configure an existing Maven Web Application to utilize the Java EE 8 Platform
 
 ** In this early release, you may have to kill the netbeans process after installing Oracle JS Parser and nbjavac.  After you have killed the process, you can restart Apache NetBeans and begin to use for Java EE 8 development.
